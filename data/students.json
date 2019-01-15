@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "firstName": "Ion",
+    "lastName": "Popescu",
+    "grades": {
+      "biology": 6,
+      "mathematics": 4,
+      "science": 5,
+      "socialStudies": 7
+    }
+  },
+  {
+    "id": "2",
+    "firstName": "Dan",
+    "lastName": "Georgescu",
+    "grades": {
+      "biology": 9,
+      "mathematics": 9,
+      "science": 8,
+      "socialStudies": 7
+    }
+  },
+  {
+    "id": "3",
+    "firstName": "Nicolae",
+    "lastName": "Dumitrescu",
+    "grades": {
+      "biology": 7,
+      "mathematics": 6,
+      "science": 8,
+      "socialStudies": 6
+    }
+  },
+  {
+    "id": "4",
+    "firstName": "Johnny",
+    "lastName": "Popescu",
+    "grades": {
+      "biology": 8,
+      "mathematics": 9,
+      "science": 10,
+      "socialStudies": 7
+    }
+  },
+  {
+    "id": "5",
+    "firstName": "Dana",
+    "lastName": "Saroiu",
+    "grades": {
+      "biology": 4,
+      "mathematics": 6,
+      "science": 6,
+      "socialStudies": 7
+    }
+  },
+  {
+    "id": "6",
+    "firstName": "Emil",
+    "lastName": "Dumitriu",
+    "grades": {
+      "biology": 7,
+      "mathematics": 4,
+      "science": 5,
+      "socialStudies": 7
+    }
+  },
+  {
+    "id": "7",
+    "firstName": "George-Ionut",
+    "lastName": "Dumitrescu",
+    "grades": {
+      "biology": 10,
+      "mathematics": 9,
+      "science": 10,
+      "socialStudies": 10
+    }
+  },
+  {
+    "id": "8",
+    "firstName": "Andreea",
+    "lastName": "Ilie",
+    "grades": {
+      "biology": 4,
+      "mathematics": 3,
+      "science": 2,
+      "socialStudies": 6
+    }
+  },
+  {
+    "id": "9",
+    "firstName": "Camelia",
+    "lastName": "Anghel",
+    "grades": {
+      "biology": 9,
+      "mathematics": 8,
+      "science": 8,
+      "socialStudies": 10
+    }
+  },
+  {
+    "id": "10",
+    "firstName": "Eliza",
+    "lastName": "Gheorghe",
+    "grades": {
+      "biology": 9,
+      "mathematics": 5,
+      "science": 7,
+      "socialStudies": 10
+    }
+  }
+]

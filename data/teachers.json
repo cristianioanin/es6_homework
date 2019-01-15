@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "Victor",
+    "lastName": "Frankenstein",
+    "discipline": "Biology",
+    "specialization": "Human Body Anatomy",
+    "academicRank": "Professor"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Watson",
+    "discipline": "Medicine",
+    "specialization": "Military Combat Medicine",
+    "academicRank": "Assistant Professor"
+  },
+  {
+    "firstName": "Sherlock",
+    "lastName": "Holmes",
+    "discipline": "Logic",
+    "specialization": "Process of Thought",
+    "academicRank": "Associate Professor"
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Jekyll",
+    "discipline": "Chemistry",
+    "specialization": "Keeping Inner-demons Inside",
+    "academicRank": "Lecturer"
+  },
+  {
+    "firstName": "Abraham",
+    "lastName": "Stoker",
+    "discipline": "Literature",
+    "specialization": "Gothic Literature",
+    "academicRank": "Professor"
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Hopper",
+    "discipline": "Computer Programming",
+    "specialization": "Debugging",
+    "academicRank": "Associate Professor"
+  }
+]
