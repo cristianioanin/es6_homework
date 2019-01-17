@@ -5,24 +5,23 @@ import Widget from '../widgets/Widget.js';
 
 
 export default class View {
-  static fetchFaces(people) {
+  static getRandomProfile(person) {
     Widget.clearWidgets();
 
     $.ajax({
-      url: 'https://randomuser.me/api/?results=10&inc=picture,email',
+      url: `https://randomuser.me/api/?inc=gender,picture,email&gender=${person.gender}`,
       method: 'GET',
       dataType: 'json',
       content: 'application/json',
-    }).done(faces => {
-      people.forEach((person, index) => {
-        person.profilePicture = faces.results[index].picture.large;
-        person.email = faces.results[index].email;
-        if (Student.prototype.isPrototypeOf(person)) {
-          StudentWidget.insertWidget(person);
-        } else {
-          TeacherWidget.insertWidget(person);
-        };
-      });
+    }).done(profile => {
+      console.log('gender:', person);
+      person.profilePicture = profile.results[0].picture.large;
+      person.email = profile.results[0].email;
+      if (Student.prototype.isPrototypeOf(person)) {
+        StudentWidget.insertWidget(person);
+      } else {
+        TeacherWidget.insertWidget(person);
+      };
     });
   }
 }

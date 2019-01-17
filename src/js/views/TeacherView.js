@@ -9,8 +9,10 @@ export default class TeacherView {
       dataType: 'json',
       content: 'application/json',
     }).done(teachers => {
-      const teachersList = teachers.map(teacher => new Teacher(teacher));
-      View.fetchFaces(teachersList);
+      teachers.forEach(teacher => {
+        const newTeacherObject = new Teacher(teacher);
+        View.getRandomProfile(newTeacherObject);
+      });
     });
   }
 }
