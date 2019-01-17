@@ -3,6 +3,7 @@
     "id": "1",
     "firstName": "Ion",
     "lastName": "Popescu",
+    "gender": "male",
     "grades": {
       "biology": 6,
       "mathematics": 4,
@@ -14,6 +15,7 @@
     "id": "2",
     "firstName": "Dan",
     "lastName": "Georgescu",
+    "gender": "male",
     "grades": {
       "biology": 9,
       "mathematics": 9,
@@ -25,6 +27,7 @@
     "id": "3",
     "firstName": "Nicolae",
     "lastName": "Dumitrescu",
+    "gender": "male",
     "grades": {
       "biology": 7,
       "mathematics": 6,
@@ -36,6 +39,7 @@
     "id": "4",
     "firstName": "Johnny",
     "lastName": "Popescu",
+    "gender": "male",
     "grades": {
       "biology": 8,
       "mathematics": 9,
@@ -47,6 +51,7 @@
     "id": "5",
     "firstName": "Dana",
     "lastName": "Saroiu",
+    "gender": "female",
     "grades": {
       "biology": 4,
       "mathematics": 6,
@@ -58,6 +63,7 @@
     "id": "6",
     "firstName": "Emil",
     "lastName": "Dumitriu",
+    "gender": "male",
     "grades": {
       "biology": 7,
       "mathematics": 4,
@@ -69,6 +75,7 @@
     "id": "7",
     "firstName": "George-Ionut",
     "lastName": "Dumitrescu",
+    "gender": "male",
     "grades": {
       "biology": 10,
       "mathematics": 9,
@@ -80,6 +87,7 @@
     "id": "8",
     "firstName": "Andreea",
     "lastName": "Ilie",
+    "gender": "female",
     "grades": {
       "biology": 4,
       "mathematics": 3,
@@ -91,6 +99,7 @@
     "id": "9",
     "firstName": "Camelia",
     "lastName": "Anghel",
+    "gender": "female",
     "grades": {
       "biology": 9,
       "mathematics": 8,
@@ -102,6 +111,7 @@
     "id": "10",
     "firstName": "Eliza",
     "lastName": "Gheorghe",
+    "gender": "female",
     "grades": {
       "biology": 9,
       "mathematics": 5,
