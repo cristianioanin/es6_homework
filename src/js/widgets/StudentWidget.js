@@ -13,7 +13,8 @@ export default class StudentWidget extends Widget {
     <h6 class="card-subtitle text-muted">Student</h6>
     <ul class="list-group mt-3">
     ${Object.entries(student.grades).map(gradeEntry => {
-      return `<li class="list-group-item p-0">${StudentWidget.upperFirstChar(gradeEntry[0])}: <span>${gradeEntry[1]}</span></li>`;
+      const [discipline, grade] = gradeEntry;
+      return `<li class="list-group-item p-0">${StudentWidget.upperFirstChar(discipline)}: <span>${grade}</span></li>`;
     }).join('')}
     </ul>
     <div class="card-footer">

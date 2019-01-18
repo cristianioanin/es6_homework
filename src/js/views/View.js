@@ -14,7 +14,6 @@ export default class View {
       dataType: 'json',
       content: 'application/json',
     }).done(profile => {
-      console.log('gender:', person);
       person.profilePicture = profile.results[0].picture.large;
       person.email = profile.results[0].email;
       if (Student.prototype.isPrototypeOf(person)) {

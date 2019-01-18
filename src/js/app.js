@@ -4,13 +4,13 @@ import Widget from './widgets/Widget.js';
 
 const router = new kendo.Router();
 
-router.route("/", function () {
+router.route('/', function () {
   Widget.clearWidgets();
 });
 
-router.route("/students", () => StudentView.loadStudents('/es6_homework/data/students.json'));
+router.route('/students', () => StudentView.loadStudents('/es6_homework/data/students.json'));
 
-router.route("/teachers", () => TeacherView.loadTeachers('/es6_homework/data/teachers.json'));
+router.route('/teachers', () => TeacherView.loadTeachers('/es6_homework/data/teachers.json'));
 
 $(function () {
   router.start();
