@@ -8,9 +8,11 @@ Results should be displayed as cards, grid-list type.
 ES6 features used in this project:
   - modules
   - Class syntax
+  - static properties
   - getters (for private fields or computed properties)
   - destructuring assignment
   - Subclass extends Class
+  - template-literals
   
 Implement routing using KendoRouter to simulate SPA behaviour.
 Use jQuery for DOM targeting and manipulation.
