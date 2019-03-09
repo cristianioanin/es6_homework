@@ -1,8 +1,10 @@
 # es6_homework
-Informal School of IT - Assignment on ES6 features
+**Informal School of IT - Assignment on ES6 features**
 
 Having a set of students and teachers data, fetch the required resources using jQuery's AJAX.
 Results should be displayed as cards, grid-list type.
+
+[See this project live](https://cristianioanin.github.io/es6_homework/#/students)
 
 **Implementation**
 ES6 features used in this project:
